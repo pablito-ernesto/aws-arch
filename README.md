@@ -16,7 +16,7 @@
 
 ##### Weighted
  * Registros A con peso relativo
- *Validar que cae con más probabilidad en uno que en otro
+ * Validar que cae con más probabilidad en uno que en otro
 
 ##### Latency
  * Registros del tipo latency
