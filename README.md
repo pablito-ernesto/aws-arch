@@ -37,3 +37,26 @@
 ##### Heath Checks II
  * Crear health checks 
  * Crear un health check calculado en base a los otros
+ 
+ 
+#### S3
+
+##### Preparación
+* Crear un bucket privado.
+
+##### Subir File
+ * Subir un file 
+ * Validar que se puede acceder mediante la signed URL
+ * Versionar
+
+##### Activar el versionado 
+ * Subir varias versiones del mismo file
+
+##### Encriptación SSE-S3
+ * Subir un file encriptado
+ * Validar que quedó con la encriptación correcta.
+
+##### Encriptación SSE-KMS
+ * Subir un file encriptado
+ * Validar que quedó con la encriptación correcta.
+
