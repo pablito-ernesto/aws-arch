@@ -60,3 +60,11 @@
  * Subir un file encriptado
  * Validar que quedó con la encriptación correcta.
 
+##### Crear una policie 
+ * Crear un policie que no deje hacer put object si no esta encriptado con AES256 
+ * Tips: s3:x-amz-server-side-encryption
+ * Validar que si se hace upload sin encriptar falla
+ * Validar que si se hace upload encriptado sale ok 
+ * Validar que si se hace upload encriptado con KMS falla
+
+
