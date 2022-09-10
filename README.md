@@ -60,11 +60,28 @@
  * Subir un file encriptado
  * Validar que quedó con la encriptación correcta.
 
-##### Crear una policie 
+##### Crear una policy
  * Crear un policie que no deje hacer put object si no esta encriptado con AES256 
  * Tips: s3:x-amz-server-side-encryption
  * Validar que si se hace upload sin encriptar falla
  * Validar que si se hace upload encriptado sale ok 
  * Validar que si se hace upload encriptado con KMS falla
+
+##### Crear un sitio estático
+ * Marcar el bucket como sitio estático.
+ * Marcar como Publico. 
+ * Crear una policy que tenga allow para get.
+ * Subir index y error html.
+ * Validar que el sitio rederiza ok.
+
+##### CORS
+ * Crear un bucket nuevo.
+ * Configurarlo como un sitio estático.
+ * Habilitar CORS para el bucket inicial.
+ * Obtener desde el sitio inicial un recurso del segundo sitio.
+
+
+
+
 
 
