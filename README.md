@@ -80,6 +80,13 @@
  * Habilitar CORS para el bucket inicial.
  * Obtener desde el sitio inicial un recurso del segundo sitio.
 
+##### Access Log
+ * Crear un bucket (log) para almacenar auditoria
+ * Configurar el bucket original (os) para que guarde los logs
+ * Hacer operaciones en el os y validar que se audita
+
+
+
 
 
 
