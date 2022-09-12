@@ -85,6 +85,11 @@
  * Configurar el bucket original (os) para que guarde los logs
  * Hacer operaciones en el os y validar que se audita
 
+##### Replica 
+ * Crear un bucket de replica
+ * En managment configurar la replica del os
+ * Validar que se replican con las versiones correctas
+
 
 
 
