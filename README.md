@@ -90,7 +90,15 @@
  * En managment configurar la replica del os
  * Validar que se replican con las versiones correctas
 
-
+##### Pre signed
+ * Crear una presigned url
+ * Validar que es accesible y que expira
+ 
+#### S3 Storage
+ * Subir un file y seleccionar el storage type Standart IA (Infrequent Access)
+ * Moverlo entre clases de storage
+ * Crear Life cycle rules (Managment)
+ * Validar el Timeline Summary
 
 
 
