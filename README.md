@@ -94,11 +94,16 @@
  * Crear una presigned url
  * Validar que es accesible y que expira
  
-#### S3 Storage
+##### S3 Storage
  * Subir un file y seleccionar el storage type Standart IA (Infrequent Access)
  * Moverlo entre clases de storage
  * Crear Life cycle rules (Managment)
  * Validar el Timeline Summary
+
+##### S3 Event Notification
+ * Agregar notificaciones on create
+ * Mandar a una SQS
+ * Validar que cuando se sube un file se genera un evento 
 
 
 
